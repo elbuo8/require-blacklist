@@ -1,0 +1,21 @@
+{
+  "name": "require-blacklist",
+  "version": "0.1.0",
+  "description": "Blacklist modules from require",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/blacklist.js"
+  },
+  "keywords": [
+    "require",
+    "blacklist",
+    "security"
+  ],
+  "author": "Yamil Asusta (@elbuo8)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.4"
+  }
+}
